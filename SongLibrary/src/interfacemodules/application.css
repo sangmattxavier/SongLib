@@ -1,0 +1,72 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.window{
+	-fx-background-color: #36413E;
+}
+
+.project-header{
+    -fx-font: 100px Tahoma;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+}
+.list-view{
+
+}
+.list-cell:odd{
+		-fx-background-color: #bee5eb;
+}
+.list-cell:even{
+		-fx-background-color: #e4f4f7;
+}
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(#328BDB 0%, #207BCF 25%, #1973C9 75%, #0A65BF 100%);
+    -fx-text-fill: white;
+}
+
+.add-button{
+	-fx-background-color: #007bff;
+	-fx-text-fill: white;
+}
+.add-button:hover{
+	-fx-opacity: 0.7;
+}
+
+.clear-button{
+	-fx-background-color: #6c757d;
+	-fx-text-fill: white;
+}
+.clear-button:hover{
+	-fx-opacity: 0.7;
+}
+
+.edit-button{
+	-fx-background-color: #007bff;
+	-fx-text-fill: white;
+}
+.edit-button:hover{
+	-fx-opacity: 0.7;
+}
+
+.delete-button{
+	-fx-background-color: #dc3545;
+	-fx-text-fill: white;	
+}
+.delete-button:hover{
+	-fx-opacity: 0.7;
+}
+
+.reset-button{
+	-fx-background-color: #6c757d;
+	-fx-text-fill: white;
+}
+.reset-button:hover{
+	-fx-opacity: 0.7;
+}
+
+.add-info{
+	-fx-text-fill: grey;
+}
+.edit-info{
+	-fx-text-fill: grey;
+}

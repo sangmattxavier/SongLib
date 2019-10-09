@@ -21,3 +21,7 @@ Main Features
 * User can exit application and the previously added songs will be saved for next use.
 * Each song is unique via Song Name and Artist Name combination
 * List is sorted alphabetically
+
+Running Version
+---
+![alt text](https://github.com/sangmattxavier/SongLib/blob/master/ScreenShot.png)
